@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container header">
+        <nav class="main-nav">
+          <a href="/" class="logo"><span class="logo__half">Web</span>Studio</a>
+
+          <ul class="site-nav list">
+            <li>
+              <a href="./index.html" class="site-nav__link">Студія</a>
+            </li>
+            <li>
+              <a href="/" class="site-nav__link current">Портфоліо</a>
+            </li>
+            <li><a href="" class="site-nav__link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="info-link list">
+          <li class="info-link__list">
+            <a href="mailto:info@devstudio.com"
+              ><span class="info-link__icon"
+                ><svg class="icon" width="16" height="12">
+                  <use href=".//images/symbol-defs.svg#icon-email"></use></svg
+              ></span>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="info-link__list">
+            <a href="tel:+380961111111"
+              ><span class="info-link__icon"
+                ><svg class="icon" width="10" height="16">
+                  <use href=".//images/symbol-defs.svg#icon-telephone"></use>
+                </svg> </span
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="works section">
+        <div class="container">
+          <h1 class="visually-hidden">Наші роботи</h1>
+          <ul class="button list">
+            <li><button type="button" class="button__filters">Усі</button></li>
+            <li>
+              <button type="button" class="button__filters">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="button__filters">Додатки</button>
+            </li>
+            <li>
+              <button type="button" class="button__filters">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="button__filters">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="catalog list">
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/techno.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Технокряк</h2>
+                  <p class="card__application">Веб-сайт</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/poster.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="card__application">Дизайн</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/seafood.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Ресторан Seafood</h2>
+                  <p class="card__application">Додаток</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/headphones.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Проєкт Prime</h2>
+                  <p class="card__application">Маркетинг</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/boxes.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Проєкт Boxes</h2>
+                  <p class="card__application">Додаток</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/screen.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Inspiration has no Borders</h2>
+                  <p class="card__application">Веб-сайт</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/book.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Видання Limited Edition</h2>
+                  <p class="card__application">Дизайн</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/lab.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Проєкт LAB</h2>
+                  <p class="card__application">Маркетинг</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="catalog__items">
+              <div class="card">
+                <div class="card__relative">
+                  <img
+                    src="./images/laptop.jpg"
+                    width="370"
+                    alt="технокряк"
+                    class="card__image"
+                  />
+
+                  <div class="card__info">
+                    <p class="card__text__slide">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <h2 class="card__heading">Growing Business</h2>
+                  <p class="card__application">Додаток</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container bottom-links">
+        <div class="address-part">
+          <a href="/" class="logo__bottom"
+            ><span class="logo__half">Web</span>Studio</a
+          >
+          <address class="address">
+            <ul class="contacts list">
+              <li class="address-list">
+                <a class="contacts-details-address" href=""
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address-list">
+                <a class="contacts-details" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-list">
+                <a class="contacts-details" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="links-part">
+          <h2 class="page-footer-links-heading">Приєднуйтесь</h2>
+
+          <ul class="footer-team-social list">
+            <li>
+              <a class="footer-social-links" href="">
+                <svg class="icon" width="20" height="20">
+                  <use href=".//images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="">
+              <a class="footer-social-links" href="">
+                <svg class="icon" width="20" height="20">
+                  <use href=".//images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="">
+              <a class="footer-social-links" href="">
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="">
+              <a class="footer-social-links" href="">
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-form-text">Підпишіться на розсилку</p>
+          <form class="footer-form">
+            <label for="user-email"></label>
+            <input
+              type="email"
+              name="email"
+              id="user-email"
+              class="footer-form-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-email-button">
+              Підписатися
+              <span class="subscribe-button-icon">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
