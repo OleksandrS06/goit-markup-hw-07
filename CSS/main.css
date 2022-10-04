@@ -76,7 +76,6 @@ img {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -674,35 +673,30 @@ img {
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-email::-webkit-input-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-email::-moz-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-email:-ms-input-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-email::-ms-input-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-email::placeholder {
   font-size: 16px;
   font-weight: 400;
@@ -785,7 +779,6 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-bottom: 94px;
 }
 
 .card__heading {
